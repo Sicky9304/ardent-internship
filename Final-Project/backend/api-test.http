@@ -1,0 +1,95 @@
+###
+GET http://localhost:5000/courses
+
+###
+POST http://localhost:5000/courses
+Content-Type: application/json
+
+[
+    { "title":"Artificial Intelligence","description":"AI Fundamentals","instructor":"Noah Mitchell","category":"AI","level":"Beginner","price":6999 },
+
+{ "title":"Machine Learning","description":"ML Concepts","instructor":"Liam Nelson","category":"AI","level":"Intermediate","price":7999 },
+
+{ "title":"Deep Learning","description":"Neural Networks","instructor":"Evelyn Carter","category":"AI","level":"Advanced","price":8999 },
+
+{ "title":"Data Science","description":"Data Analysis","instructor":"Ava Perez","category":"Data Science","level":"Intermediate","price":7499 },
+
+{ "title":"Power BI","description":"Business Intelligence","instructor":"Elijah Roberts","category":"Data Science","level":"Beginner","price":3499 },
+
+{ "title":"C Programming","description":"Programming Fundamentals","instructor":"Logan Turner","category":"Programming","level":"Beginner","price":1999 },
+
+{ "title":"C++ Programming","description":"Object Oriented Programming","instructor":"Harper Phillips","category":"Programming","level":"Intermediate","price":2999 },
+
+{ "title":"Git and GitHub","description":"Version Control","instructor":"Sebastian Campbell","category":"Tools","level":"Beginner","price":1499 },
+
+{ "title":"Linux Administration","description":"Linux for Developers","instructor":"Victoria Parker","category":"Operating Systems","level":"Intermediate","price":3999 },
+
+{ "title":"Operating System","description":"OS Concepts","instructor":"Jack Evans","category":"Computer Science","level":"Intermediate","price":2999 },
+
+{ "title":"Computer Networks","description":"Networking Fundamentals","instructor":"Grace Edwards","category":"Computer Science","level":"Intermediate","price":3499 },
+
+{ "title":"DBMS","description":"Database Management Systems","instructor":"Samuel Collins","category":"Computer Science","level":"Beginner","price":2999 },
+
+{ "title":"System Design","description":"Scalable Systems","instructor":"Madison Stewart","category":"Architecture","level":"Advanced","price":8999 },
+
+{ "title":"Spring Boot","description":"Java Backend Framework","instructor":"David Cook","category":"Backend","level":"Intermediate","price":4999 },
+
+{ "title":"Laravel PHP","description":"PHP Web Development","instructor":"Natalie Morris","category":"Backend","level":"Intermediate","price":3999 },
+
+{ "title":"Flutter Development","description":"Cross Platform Apps","instructor":"Andrew Rogers","category":"Mobile Development","level":"Intermediate","price":5499 },
+
+{ "title":"React Native","description":"Mobile App Development","instructor":"Hannah Reed","category":"Mobile Development","level":"Intermediate","price":5999 },
+
+{ "title":"Android Development","description":"Build Android Apps","instructor":"Gabriel Bell","category":"Mobile Development","level":"Beginner","price":4999 },
+
+{ "title":"iOS Development","description":"Swift Programming","instructor":"Lily Murphy","category":"Mobile Development","level":"Intermediate","price":6999 },
+
+{ "title":"UI UX Design","description":"Design Better Interfaces","instructor":"Zoey Bailey","category":"Design","level":"Beginner","price":2999 },
+{ "title":"Figma Masterclass","description":"Design Prototypes","instructor":"Isaac Rivera","category":"Design","level":"Beginner","price":2499 },
+
+{ "title":"Digital Marketing","description":"Marketing Strategies","instructor":"Anthony Cooper","category":"Marketing","level":"Beginner","price":2999 },
+
+{ "title":"SEO Optimization","description":"Search Engine Optimization","instructor":"Paisley Richardson","category":"Marketing","level":"Intermediate","price":3499 },
+
+{ "title":"Content Writing","description":"Professional Writing Skills","instructor":"Nathan Cox","category":"Marketing","level":"Beginner","price":1999 },
+
+{ "title":"Project Management","description":"Agile and Scrum","instructor":"Skylar Howard","category":"Management","level":"Intermediate","price":4499 },
+
+{ "title":"Business Analytics","description":"Data Driven Decisions","instructor":"Levi Ward","category":"Business","level":"Intermediate","price":4999 },
+
+{ "title":"Entrepreneurship","description":"Startup Fundamentals","instructor":"Penelope Torres","category":"Business","level":"Beginner","price":2999 },
+
+{ "title":"Finance Basics","description":"Personal Finance","instructor":"Julian Peterson","category":"Finance","level":"Beginner","price":2499 },
+
+{ "title":"Stock Market Investing","description":"Investment Strategies","instructor":"Stella Gray","category":"Finance","level":"Intermediate","price":5999 },
+
+{ "title":"AWS Cloud Practitioner","description":"AWS Cloud Basics","instructor":"Benjamin King","category":"Cloud","level":"Beginner","price":5999 },
+
+{ "title":"Microsoft Azure Fundamentals","description":"Azure Cloud Services","instructor":"Lucas Wright","category":"Cloud","level":"Beginner","price":5499 },
+
+{ "title":"Google Cloud Platform","description":"GCP Essentials","instructor":"Mia Walker","category":"Cloud","level":"Intermediate","price":5999 },
+
+{ "title":"Cyber Security Basics","description":"Security Fundamentals","instructor":"Charlotte Baker","category":"Security","level":"Beginner","price":3999 },
+
+{ "title":"Ethical Hacking","description":"Penetration Testing","instructor":"Henry Adams","category":"Security","level":"Advanced","price":7999 },
+
+{ "title":"Blockchain Development","description":"Web3 and Blockchain","instructor":"Jacob Foster","category":"Blockchain","level":"Intermediate","price":6999 }
+
+]
+
+###
+
+DELETE http://localhost:5000/courses/6a22d60eec5ef1eb5e744f10
+
+###
+DELETE http://localhost:5000/courses/
+
+
+###
+PUT http://localhost:5000/courses/6a22d704131f35cf8e3bcaa8
+Content-Type: application/json
+
+{
+    "title": "Advanced React",
+    "price": 10000
+}
