@@ -1,1 +1,6 @@
-node_modules/
+#Ignore the dependencies folder inside backend
+node_modules
+
+
+#Ignore the envirnment variables
+backend/.env
