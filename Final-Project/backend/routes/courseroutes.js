@@ -38,6 +38,7 @@ router.put("/:id", async (req, res) => {
     const course = await Course.findByIdAndUpdate(
         req.params.id,
         req.body,
+        // @ts-ignore
         { returnDocument: true }
     );
 
