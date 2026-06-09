@@ -1,5 +1,3 @@
-/** @type {import('express').Express} */
-
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
